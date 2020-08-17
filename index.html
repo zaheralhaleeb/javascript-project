@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://kit.fontawesome.com/b8fb6fef08.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>javascript-project</title>
+</head>
+<body>
+    <!--start setting box-->
+    <div class="setting-box ">
+      
+   
+   <div class="toggle-setting">
+  
+      <i class="fa fa-gear fa-spin"></i>  
+    
+   </div>
+   
+    <div class="settings-container">
+        <div class="option-box">
+           <h4>Types of Cars</h4> 
+           <ul class="types-list">
+               <li class="Volkswagen" >Volkswagen</li> 
+               <button id="Volkswagen">Click</button> <hr>
+
+               <li class="BMW">BMW</li>
+                <button id="BMW">Click</button><hr>
+
+               <li class="Audi">Audi</li> 
+               <button id="Audi">Click</button><hr>
+
+               <li class="MercedesBens">MercedesBens</li>
+               <button id="MercedesBens">Click</button> <hr> 
+
+               <li class="Opel">Opel</li> 
+               <button id="Opel">Click</button><hr>
+           </ul>
+        </div>
+        
+    </div>
+</div>
+    <!--end setting box-->
+    <!-- start nav bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section ='.about-us'>
+            <div class="tooltip">About Us</div>
+        </div>
+        <div class="bullet"data-section ='.our-servies'>
+            <div class="tooltip">Our Servise</div>
+        </div>
+        <div class="bullet " data-section ='.gallery'>
+            <div class="tooltip">Our Gallery</div>
+        </div>
+        <div class="bullet" data-section ='.sales'>
+            <div class="tooltip">Our Sales</div>
+        </div>
+        <div class="bullet" data-section ='.our-company'> 
+            <div class="tooltip">Our Company</div>
+        </div>
+        <div class="bullet" data-section ='.contact'>
+            <div class="tooltip"> contact Us</div>
+        </div>
+    </div>
+
+      <!-- end nav bullets -->
+    
+    <!-- start landing page -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+            <div class="logo"> <a href="#"> Z & H for Trading </a>  </div>
+          <div class="links-container">
+            <ul class="links open">
+                <li><a href="#about" class="active"> About Us </a> </li>
+                <li><a href="#our-servies"> Our Servies </a></li>
+                <li><a href="#our-gallrey"> Our Gallery </a></li>
+                <li><a href="#our-sales"> Our Sales </a></li>
+                <li><a href="#our-company"> Our Company </a></li>
+                <li><a href="#contact"> Contact Us  </a></li>
+            </ul>
+            <button class="toggle-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+          </div>
+        </div>
+      </div> 
+     
+        <div class="introduction-text">
+        <!-- start the audio -->
+            <section>
+                <h3 id="audio">turn on the Audio </h3>
+                    <audio controls >
+                             <source src="sound/audio_2819a63ae9.mp3" type="audio/mpeg"> 
+                            <source src="sound/audio_2819a63ae9.ogg" type="audio/ogg">
+                    </audio>
+            </section> 
+               <!-- end the audio -->
+            <h1>We <span class="span-1"> <a href="#">sell <span class="span-2"> & </span> buy </span></a>  Cars</h1>
+            <p>If you want to buy a used car, just tell us what you want: whether with navigation system, leather seats, rear-view camera, low mileage or any special equipment - we are looking for it for you at any car manufacturer. If you would like to buy a company car, or are also a car dealer, or are looking for a special vehicle - we would be happy to support you here. And the positive thing is: we have all vehicles checked so that you can be sure that your car is in good condition.</p>
+            
+                <button id="btn" onclick="">Change the Background </button>
+               
+                 <br>
+              
+            <div class="messages">
+                <div class="message">
+                    <p>You are welcome in our Office</p>
+                </div>
+                <br>
+                <div class="message1">
+                 <p>You are welcome in our Office</p>
+             </div>
+            </div>
+                
+        </div>
+    </div>
+    <!-- start about us -->
+ <div class="container">
+    <div class="about-us">
+        <div class="info-box">
+            <div id="about"></div>
+            <h2>About Us</h2>
+            <P>We have been in Hamburg since May 1998.
+
+                You will find us in Hamburg-Niendorf near the airport, we can be reached quickly via the  (exit no. 24 Schnelsen / Niendorf).
+                
+                Our competent team is available to answer your questions at any time and will be happy to provide information about our range of vehicles and our services.
+                
+                You will always find new used car offers from all brands, especially MB, PORSCHE, BMW, AUDI and VW.</P>
+        </div>
+        <div class="image-box">
+            <img class="img" src="image//img/about.jpg" alt="">
+        </div>
+    </div>
+ </div>
+     <!-- end about us -->
+     <!-- start our sales -->
+        <div class="sales">
+            <div class="container">
+                <div id="our-sales"></div>
+                <h2>Our Sales</h2>
+                <div class="sales-box">
+                    <div class="sales-name">Volkswagen</div>
+                    <div class="sales-progress">
+                        <span data-progress='90%'></span>
+                    </div>
+                </div>
+                <div class="sales-box">
+                    <div class="sales-name">BMW</div>
+                    <div class="sales-progress">
+                        <span data-progress='75%'></span>
+                    </div>
+                </div>
+                <div class="sales-box">
+                    <div class="sales-name">Audi</div>
+                    <div class="sales-progress">
+                        <span data-progress='55%'></span>
+                    </div>
+                </div>
+                <div class="sales-box">
+                    <div class="sales-name">MercedesBens</div>
+                    <div class="sales-progress">
+                        <span data-progress='68%'></span>
+                    </div>
+                </div>
+                <div class="sales-box">
+                    <div class="sales-name">Opel</div>
+                    <div class="sales-progress">
+                        <span data-progress='53%'></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!-- end our sales -->
+       <!-- start gallery -->
+         <div class="gallery">
+             <div class="container">
+                 <div id="our-gallrey"></div>
+                 <h2>Our Gallery</h2>
+                 <div class="images-box">
+                      <img src="image/2/1.jpg" alt="Volkswagen Jetta">
+                     <img src="image/2/2.jpg" alt="Volkswagen CC">
+                     <img src="image/2/4.jpg" alt="BMW X6">
+                     <img src="image/2/6.jpg" alt="Mercedes-Bens S 600">
+                     <img src="image/2/7.jpg" alt="Mercedes-Bens S 180">
+                     <img src="image/2/8.jpg" alt="Volkswagen Touareg">
+                     <img class="historically" src="image/historically-1415897_1920.jpg" alt="historicall Mercedes-Bens">
+                     
+                 </div>
+             </div>
+         </div>
+        <!-- end gallery -->
+
+       <!-- start flippingCard -->
+       <dir class="moo">
+        
+        <div class="card">
+               
+     <div class="front">
+         <header>
+             <img class="av" src="image/1/av.jpg" alt="">
+         </header>
+         <h3>Z & H Company</h3>
+         <p>  We are not only ones, but we are trying to be the Best !! <br> Donot hesitate to call us</p>
+         <span> Hover to see Details</span>
+     </div> 
+     <div class="back">
+             <img src= "image/02.jpg" alt=""> 
+             <h3>Set by Zaher Alhaleeb !</h3>
+             <div class="copy">
+             &copy;
+             &reg;
+ 
+             <p>017208768917</p>
+         </div>
+     </div>
+ </div>
+
+<div id="our-company"></div>
+ <h2 class="our-company">Our Company</h2>
+        <div class="card">
+               
+     <div class="front">
+         <header>
+             <img class="av" src="image/1/av.jpg" alt="">
+         </header>
+         <h3>Z & H Team</h3>
+         <li>John mat</li>
+         <li>Samer hab</li>
+         <li>Malek  habhk</li>
+         <li>Sara max</li>
+         <li>John mat</li>
+         <li>Samer hab</li>
+        
+ 
+         <span> Hover to see Details</span>
+     </div> 
+     <div class="back">
+             <img src='image/2/b080320e46.jpg' alt=""> 
+             <h3>Set by Zaher Alhaleeb !</h3>
+             <div class="copy">
+             &copy;
+             &reg;
+ 
+             <p>017208768917</p>
+         </div>
+     </div>
+ </div>
+
+ 
+       </dir>
+       
+        <!-- end flippingCard -->
+        <!-- start our service -->
+        <div class="our-servies">
+            <dir id="our-servies"></dir>
+              <h2> Our Servies</h2> 
+            <div class="box-servies">
+                <div class="front">
+                    <div>
+                        <h3> We sell Cars</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe corrupti rem nesciunt mollitia expedita animi eligendi, qui quas consequuntur! Dolorum omnis dolores velit accusamus aliquam error, quos dignissimos commodi quidem.</p>
+                        <br>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At in tempora ullam quibusdam nostrum repellendus reiciendis et officia libero. In hic repellendus voluptates magnam ex suscipit excepturi ratione eligendi repudiandae!</p>
+                        
+                    </div>
+                     
+                     <div>
+                        <h3>We buy Cars</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas libero maxime non rerum totam accusamus quo, vel voluptate? Accusamus tempora facere aliquid sequi fuga vero deleniti neque laudantium delectus quod?</p>
+                        <hr>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit magni culpa natus dignissimos aut corrupti fugiat non officiis eveniet earum. Blanditiis neque esse recusandae omnis doloribus culpa. Sapiente, aliquam impedit!</p>
+                    </div>
+                     
+                    <div>
+                        <h3>We rent Cars</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem molestias soluta id. Tempore temporibus quos doloremque asperiores, rem mollitia. Quidem temporibus deserunt aspernatur soluta! Suscipit quasi dolores perferendis itaque?</p>
+                        <br>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo molestias dolore mollitia iure quam accusantium rem officiis provident nulla magnam. Earum eius, temporibus delectus cum harum nam dignissimos consectetur. Dicta.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+            <!-- end our service -->
+            <!-- start contact us -->
+        <div class="contact">
+            <div id="contact"></div>
+            <div class="overlay"></div>
+
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form action="">
+                    <div class="left">
+                        <input type="text"placeholder = 'your Name' name ='username'>
+                        <input type="tel"placeholder = 'your Phone' name ='phone'>
+                        <input type="email"placeholder = 'your Email' name ='email'>
+                        <input type="text"placeholder = ' your Subject' name ='subject'>
+                    </div>
+                    <div class="right">
+                        <textarea name="message" placeholder="your Massage" ></textarea>
+                        <input type="submit" value="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+            <!-- end contact us -->
+            <hr>
+
+    <!-- start footer -->
+        <div class="footer">This Project set by <span> Zaher Alhaleeb </span>!
+          
+        </div>
+     <!-- end footer -->
+     <hr>
+    <!-- end landing page -->
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+// setInterval(function(){
+//     // random num
+//      const randomNumber = Math.floor(Math.random() * imageArray.length);
+    
+//     //change the background
+//      landingPage.style.background = 'url("image/'+imageArray[randomNumber]+ ' ")';
+
+// },1000);
+
+https://sportspass.de/center/ 
+https://www.buecherhallen.de/ehrenamt-dialog-in-deutsch.html 
+https://www.buecherhallen.de/zentralbibliothek.html 
+
+
+
+https://www.sprachbruecke-hamburg.de/ 
+https://www.sprachbruecke-hamburg.de/termine
+
+https://www.sprachbruecke-hamburg.de/online-angebote/ 
+
+https://www.buecherhallen.de/ebuecherhalle.html 
+
+
+
+Café Entenwerder 1 
+Schwimmendes Café auf Ponton in der Norderelbe mit Frühstück, Kuchen und Kaffee von lokaler Kaffeerösterei.
+
+Speisen vor Ort·
+
+Lieferdienst
+
+Adresse: Entenwerder 1, 20539 Hamburg
+Öffnungszeiten: Geöffnet ⋅ Schließt um 21:00
+
+
+/////////////
+
+#title {
+    position: relative;
+    top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 10vw;
+    font-family: 'Luckiest Guy', cursive;
+    text-transform: uppercase;
+    text-shadow: 10px 10px #3f3b3b;
+    z-index: 5;
+    transform: scale(0);
+    animation: title-animation 4s linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes title-animation {
+    0% {
+        transform: scale(0.8);
+    }
+
+    10% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(0.8);
+    }
+
+    30% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
